@@ -206,4 +206,28 @@ ion-icon.volume-icon {
     cursor: pointer;
 }
 
+  
+
+/* Media query */
+
+@media screen and (max-width: 800px) {
+    .container{
+        height: 550px;
+        width: 330px;
+    }
+
+    .volume-control{
+        margin-top: 8px;
+    }
+
+    .player-img{
+        width: 228px;
+        height: 223px;
+    }
+
+    .player-controls{
+        top: -20px;
+        left: 90px;
+    }
+}
 

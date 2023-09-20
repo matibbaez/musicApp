@@ -129,4 +129,5 @@ music.addEventListener('ended', () => changeMusic(1));
 music.addEventListener('timeupdate', updateProgressBar);
 playerProgress.addEventListener('click', setProgressBar);
 
+// Cargar la primera canción
 loadMusic(songs[musicIndex]);
