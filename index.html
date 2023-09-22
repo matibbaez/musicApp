@@ -11,12 +11,22 @@
 </head>
 
 <body>
+    <div class="loader" id="onload">
+        <div class="container-loader">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+    </div>
+      
 
+    
     <div class="background">
         <img src="" id="bg-img">
     </div>
 
-    <div class="container">
+    <div class="container hidden">
         <div class="player-img">
             <p id="song-count">PLAYING 1 OF 3</p>
             <img src="" class="active" id="cover">
@@ -53,6 +63,7 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="index.js"></script>
+    <script src="/loader.js"></script>
 </body>
 
 </html>
